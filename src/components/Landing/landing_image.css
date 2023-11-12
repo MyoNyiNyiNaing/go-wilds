@@ -1,0 +1,12 @@
+.landing-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/breadcrumb-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

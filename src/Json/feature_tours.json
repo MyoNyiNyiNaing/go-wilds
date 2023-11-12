@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-1-550x590.jpg",
+    "title": "Boathouse Neighborhood",
+    "prize": "$199.00",
+    "from": "",
+    "rating": 4.33,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    "id": 2,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2-550x590.jpg",
+    "title": "Yucatán Peninsula & Caribbean",
+    "prize": "$619.00",
+    "from": "",
+    "rating": 4.4,
+    "review": 2,
+    "discount" : ""
+  },
+  {
+    "id": 3,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-3-550x590.jpg",
+    "title": "Mykonos and Santorini Tour",
+    "prize": "$169.00",
+    "from": "",
+    "rating": 4.2,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    "id": 4,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-4-550x590.jpg",
+    "title": "Man Standing on a Rock",
+    "prize": "$116.00",
+    "from": "1129.00",
+    "rating": 4.2,
+    "review": 3,
+    "discount" : "10% off"
+  },
+  {
+    "id": 5,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-5-550x590.jpg",
+    "title": "Cottages In The Middle Of Beach",
+    "prize": "$109.00",
+    "from": "",
+    "rating": 4.13,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    "id": 6,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-6-550x590.jpg",
+    "title": "Beautiful Floating Villa",
+    "prize": "$116.10",
+    "from": "$129.00",
+    "rating": 4.47,
+    "review": 3,
+    "discount" : "10% off"
+  },
+  {
+    "id": 7,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-7-550x590.jpg",
+    "title": "Body of Water Near Mountain",
+    "prize": "$289.52",
+    "from": "$329.00",
+    "rating": 4.33,
+    "review": 3,
+    "discount" : "12% off"
+  },
+  {
+    "id": 8,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-8-550x590.jpg",
+    "title": "Discovery Island Kayak Tour",
+    "prize": "$129.00",
+    "from": "",
+    "rating": 4.67,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    
+    "id": 9,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-9-550x590.jpg",
+    "title": "Java & Bali One Life Adventures",
+    "prize": "$139.00",
+    "from": "",
+    "rating": 4.33,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    "id": 10,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-10-550x590.jpg",
+    "title": "North Island Adventure Tour",
+    "prize": "$129.00",
+    "from": "",
+    "rating": 4.27,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    
+    "id": 11,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-11-550x590.jpg",
+    "title": "Rainbow Mountain Red Valley",
+    "prize": "$319.00",
+    "from": "",
+    "rating": 4,
+    "review": 3,
+    "discount" : ""
+  },
+  {
+    "id": 12,
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-12-550x590.jpg",
+    "title": "Walking the Amalfi Coast",
+    "prize": "$129.00",
+    "from": "",
+    "rating": 4.2,
+    "review": 3,
+    "discount" : ""
+  }
+]

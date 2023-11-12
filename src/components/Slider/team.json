@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jessica Brown",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-1.jpg"
+  },
+  {
+    "name": "Yoni Albert",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-2.jpg"
+  },
+  {
+    "name": "Christine Eve",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-3.jpg"
+  },
+  {
+    "name": "David Hardson",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-4.jpg"
+  },
+  {
+    "name": "Fred Andrew",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-5.jpg"
+  },
+  {
+    "name": "Sarah Rose",
+    "job" : "Consultant",
+    "image" : "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/team-6.jpg"
+  }
+]

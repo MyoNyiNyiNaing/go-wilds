@@ -1,0 +1,45 @@
+/* Team */
+
+/* Welcome Page */
+.text-form::after {
+    content: '';
+    border: 30px solid transparent;
+    border-left-color: #f3f8f6;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    margin-top: -30px;
+}
+
+.landing::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 300px;
+    background: #63AB45;
+    left: 75px;
+    bottom: 100%;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.landing::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #63AB45;
+    bottom: 51px;
+    left: 70%;
+    z-index: 1;
+}
+
+.team_img img{
+    transform: scale(1);
+    transition: 10s;
+}
+
+.team_img:hover img {
+    transform: scale(1.5);
+}

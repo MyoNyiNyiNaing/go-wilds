@@ -1,0 +1,18 @@
+.top-search-banner{
+    background-image: url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/breadcrumb-02.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tour-dropDown{
+    transition:all 1s ease-in-out;
+}
+.slider-range {
+  width: 300px;
+  margin: 20px;
+}
+
+.slider {
+  width: 100%;
+  /* background-size: cover; */
+}

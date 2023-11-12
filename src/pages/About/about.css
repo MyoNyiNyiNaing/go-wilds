@@ -1,0 +1,227 @@
+.fixed-bg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -4;
+}
+
+/* Hero Section */
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.background-animation {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: zoomAnimation 30s infinite;
+  transition: background-image 1s ease-in;
+}
+
+.first-photo {
+  background-image: url("../../assets/images/breadcrumb-01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.second-photo {
+  background-image: url("../../assets/images/breadcrumb-02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Availability */
+
+.bg-shape-04 {
+  position: absolute;
+  background-image: url("https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/bg-shape-01.png");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+}
+
+.card {
+  /* flex: 50%; */
+  padding: 40px;
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+  z-index: 40;
+}
+
+.card:hover div {
+  background-color: #63ab45;
+  color: white;
+}
+
+.card:nth-child(2n + 1) {
+  top: 100px;
+}
+
+/* Tours */
+
+
+
+/* Who we are */
+
+.top-rounded {
+  border-radius: 300px 300px 0 0;
+}
+
+.top-rounded img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@property --progress-value {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes css-progress {
+  from {
+    --progress-value: 20;
+  }
+  to {
+    --progress-value: 50;
+  }
+}
+
+progress {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.progress-bar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  /* to center the percentage value */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar::before {
+  counter-reset: percentage var(--progress-value);
+  content: counter(percentage) "%";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.css {
+  background: radial-gradient(
+      closest-side,
+      white 85%,
+      transparent 80% 100%,
+      white 0
+    ),
+    conic-gradient(
+      #63ab45 calc(var(--progress-value) * 1%),
+      rgb(220, 229, 217) 0
+    );
+  animation: css-progress 2s 1 forwards;
+}
+
+.css::before {
+  animation: css-progress 2s 1 forwards;
+}
+
+/* Team Members */
+
+.bg-shape-10 {
+  position: absolute;
+  background-image: url("../../assets/images/Bg_shape/bg-shape-10.png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  background-color: #f3f8f6;
+  z-index: -1;
+}
+
+.bg-shape-05 {
+  position: absolute;
+  background-image: url("../../assets/images/Bg_shape/bg-shape-05.png");
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+}
+
+/* Who we are */
+
+.icon_1::after {
+  content: "";
+  height: 100px;
+  width: 2px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background: url("src/assets/images/line.png") repeat-y top center transparent;
+}
+
+.brand-holder {
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+
+.brand-holder:hover {
+  background-color: #f3f8f6;
+}
+
+.splide__slide.is-active .brand-holder {
+  background-color: #f3f8f6;
+}
+
+.splide__slide.is-active .brand-holder img {
+  animation: 1.5s floating-img-animation infinite;
+}
+
+.brand-holder:hover img {
+  animation: 1.5s floating-img-animation infinite;
+}
+
+@media (max-width: 790px) {
+  .card {
+    top: 0;
+  }
+  .card:nth-child(2n + 1) {
+    top: 0;
+  }
+  .bg-fixed-photo-for-music {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("src/assets/images/Bg_shape/bg-01.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}

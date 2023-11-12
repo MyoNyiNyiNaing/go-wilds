@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "src/assets/images/Destination/image-08.jpg",
+    "country": "Switzerland"
+  },
+  {
+    "id": 2,
+    "image": "src/assets/images/Destination/image-10.jpg",
+    "country": "United Kingdom"
+  },
+  {
+    "id": 3,
+    "image": "src/assets/images/Destination/image-09.jpg",
+    "country": "France"
+  },
+  {
+    "id": 4,
+    "image": "src/assets/images/Destination/image-11.jpg",
+    "country": "Thailand"
+  },
+  {
+    "id": 5,
+    "image": "src/assets/images/Destination/image-12.jpg",
+    "country": "Singapore"
+  },
+  {
+    "id": 6,
+    "image": "src/assets/images/Destination/image-13.jpg",
+    "country": "Italy"
+  }
+]

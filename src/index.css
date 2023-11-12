@@ -1,0 +1,15 @@
+/* font used in navbar */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-color {
+    @apply text-gray-800
+}
+
+.text-50 {
+    @apply text-gray-700
+}

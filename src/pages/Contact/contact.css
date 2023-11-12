@@ -1,0 +1,70 @@
+.contact-page {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.contact-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: rgb(3, 3, 3);
+}
+.contact-social-icon:hover {
+  background-color: #63ab45;
+  color: rgb(255, 255, 255);
+}
+.contact-card-item {
+  background-color: rgb(243, 248, 246);
+  padding: 50px 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact-card-item p {
+  color: rgb(28, 35, 31);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+.contact-card-item span {
+  color: rgb(130, 130, 138);
+  margin-top: 8px;
+}
+.contact-card-item img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  background-color: rgb(243, 248, 246);
+  width: 100%;
+  border-radius: 6px;
+  color: rgb(130, 130, 138);
+  padding: 0 15px;
+  transition: outline-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  outline: #4f8637;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 2px rgba(0, 128, 0, 0.897);
+}
+.contact-form input {
+  height: 60px;
+}
+.contact-form textarea {
+  padding: 10px 20px;
+  max-height: 180px;
+}
+.floating-msg {
+  background-image: url("../../assets/images/bg-shape-04.png");
+  background-color: #63ab45;
+  color: white;
+}

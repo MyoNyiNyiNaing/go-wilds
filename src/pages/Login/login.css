@@ -1,0 +1,30 @@
+.login-form {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.login-h3 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  letter-spacing: -0.4px;
+}
+.login-label {
+  color: #1c231f;
+  font-weight: 500;
+}
+.login-input {
+  padding: 0 12px;
+  max-width: 100%;
+  line-height: 40px;
+  color: rgb(130, 130, 138);
+  font-size: 15px;
+  border: 1px solid #e2dfeb;
+  border-radius: 6px;
+  border: 1px solid #dfdfdf;
+  width: 100%;
+}
+.login-input:focus {
+  outline: none;
+}

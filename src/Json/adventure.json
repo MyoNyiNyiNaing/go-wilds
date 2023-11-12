@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "tour-2",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-11-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-11.jpg"
+  },
+  {
+    "id": 2,
+    "name": "tour-5",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-3-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "tour-11",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-7-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-7.jpg"
+  },
+  {
+    "id": 4,
+    "name": "tour-3",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-10-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-10.jpg"
+  },
+  {
+    "id": 5,
+    "name": "tour-7",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "tour-10",
+    "image": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-5-550x590.jpg",
+    "imageDetail": "https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-5.jpg"
+  }
+]

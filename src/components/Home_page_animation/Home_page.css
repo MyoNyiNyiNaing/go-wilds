@@ -1,0 +1,203 @@
+.splide__slide.is-active .swipe {
+  position: relative;
+  width: fit-content;
+}
+.splide__slide.is-active .swipe::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  width: 0%;
+  height: 100%;
+  background-color: #fff;
+  animation: swipe 1s ease-out 0.3s forwards;
+}
+.splide__slide.is-active .swipe--delay::after {
+  animation-delay: 1.5s;
+}
+
+.swipe-title,
+.swipe-para,
+.travel,
+.title-btn,
+.zoom-title,
+.zoom-para,
+.title_line,
+.zoom-btn,
+.zoom-travel {
+  opacity: 0;
+}
+
+.splide__slide.is-active .swipe-title {
+  display: block;
+  opacity: 0;
+  animation: fade 0.5s ease-out 0.9s forwards;
+}
+
+.splide__slide.is-active .swipe-para {
+  display: block;
+  opacity: 0;
+  animation: fade 0.5s ease-out 1.98s forwards;
+}
+
+.splide__slide.is-active .title-btn {
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100%);
+  animation: fadeIn 0.5s ease-out 2.7s forwards;
+}
+
+.splide__slide.is-active .travel {
+  opacity: 0;
+  transition: 1s;
+  transform: rotate(-15deg) translateY(100%);
+  animation: fadeT 0.5s ease-out 3.3s forwards;
+}
+
+.splide__slide.is-active .home-img {
+  transform: scale(1);
+  animation: zoomIn 20s ease-out infinite;
+}
+
+.splide__slide.is-active .zoom-title {
+  transform: scale(2);
+  animation: zoomT 0.5s forwards 0.5s;
+}
+
+.splide__slide.is-active .zoom-para {
+  position: relative;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100%);
+  animation: fadeIn 0.5s ease-out 1.5s forwards;
+}
+
+.splide__slide.is-active .title_line {
+  transition: 1s;
+  transform: translate(-100%, 100%);
+  animation: lineIn 1s forwards 1s;
+}
+
+.splide__slide.is-active .zoom-btn {
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100%);
+  animation: fadeIn 0.5s ease-out 2s forwards;
+}
+
+.splide__slide.is-active .zoom-travel {
+  opacity: 0;
+  transition: 1s;
+  transform: rotate(-15deg) translateY(100%);
+  animation: fadeT 0.5s ease-out 2.5s forwards;
+}
+
+.green_line {
+  bottom: 100%;
+}
+
+.splide__slide.is-active .green_line {
+  clip-path: polygon(70% 0, 100% 0, 30% 100%, 0 100%);
+  background: rgba(117, 199, 92, 0.302);
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  bottom: 100%;
+  z-index: 5;
+  right: 5%;
+  transition: 0.5s ease;
+  animation: green 0.5s forwards 3.5s;
+}
+
+@keyframes lineIn {
+  from {
+    opacity: 0;
+    transform: translate(-100%, 100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes zoomT {
+  from {
+    opacity: 0;
+    transform: scale(2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes green {
+  from {
+    bottom: 100%;
+  }
+  to {
+    bottom: 0%;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeT {
+  0% {
+    opacity: 0;
+    transform: rotate(-15deg) translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-15deg) translateY(0%);
+  }
+}
+
+@keyframes swipe {
+  0% {
+    right: 100%;
+    left: 0;
+    width: 0%;
+  }
+  70% {
+    right: 0;
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    right: 0;
+    left: 100%;
+    width: 0%;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

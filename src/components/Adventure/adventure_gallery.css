@@ -1,0 +1,19 @@
+.tour_card_content {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.364);
+    transition: 0.5s ease-in;
+    opacity: 0;
+}
+
+.tour_card_content:hover {
+    opacity: 1;
+}
+
+.splide__slide.is-active .tour_card_content {
+    opacity: 1;
+}
+
+.splide__arrows button {
+    background-color: currentColor;
+}
+

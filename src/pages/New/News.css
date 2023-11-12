@@ -1,0 +1,41 @@
+.pagination{
+    @apply block
+}
+
+.pagination a{
+    @apply text-white w-fit float-left px-3 py-2 no-underline duration-300
+}
+
+.pagination a:hover{
+    @apply text-green-500 outline outline-offset-0 outline-green-500
+} 
+
+.pagination a:active{
+    @apply bg-green-500
+}
+
+
+.bg-booking{
+    position: absolute;
+    @apply opacity-50 rounded;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bg-tour{
+    position: absolute;
+    @apply rounded;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-2.jpg');
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,32 @@
+.splide__arrow--prev,
+.splide__arrow--next {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  /* padding: 15px 20px; */
+  border-radius: 5px;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: 0.4s ease-in;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+}
+
+.splide__arrow--prev:hover,
+.splide__arrow--next:hover {
+  color: rgba(200, 200, 200, 0.474);
+}
+
+.splide__arrow--prev {
+  left: -30px;
+}
+
+.splide__arrow--next {
+  right: -30px;
+}
+
+.splide:hover .splide__arrow--prev,
+.splide:hover .splide__arrow--next {
+  opacity: 1;
+}

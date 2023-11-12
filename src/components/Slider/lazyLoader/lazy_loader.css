@@ -1,0 +1,19 @@
+.lazy-loader {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.74);
+  /* background-color: #fff; */
+  position: fixed;
+  color: white;
+  z-index: 100;
+  top: 0;
+}
+
+.lazy-loader .splide__list {
+  height: 100vh;
+}
+
+.lazy-loader button {
+  color: white;
+  background-color: currentColor;
+}
