@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "../pages/About/About";
 import Team from "../pages/Team/Team";
 import Gallery from "../pages/Gallery/Gallery";
-import Team_carousel from "../pages/Team_carousel/Team_carousel";
+import Team_carousel from "../pages/Team_carousel/TeamCarousel";
 import Home from "../pages/Home/Home";
 
 import Tours from "../pages/Tours/Tours";
@@ -17,7 +17,7 @@ import News01Page1 from "../pages/New/News01Page1";
 import News01Page2 from "../pages/New/News01Page2";
 import News1Detail from "../pages/New/News1Detail";
 import Destination from "../pages/Destination/Destination";
-import Destination_detail from "../pages/Destination/Destination_detail";
+import Destination_detail from "../pages/Destination/DestinationDetail";
 import NewsButton from "../pages/New/NewsButton";
 import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";

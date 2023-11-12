@@ -1,15 +1,15 @@
 import React from "react";
-import Landing_image from "../../components/Landing/Landing_image";
+import Landing_image from "../../components/Landing/LandingImage";
 
-import Tour_bgBlur from "../../components/Tour_bgBlur/Tour_bgBlur";
+import Tour_bgBlur from "../../components/Tour_bgBlur/TourBgBlur";
 import "./Team_carousel.css";
-import Team_slider from "../../components/Slider/Team/Team_slider";
-import Team_slider2 from "../../components/Slider/Team/Team_slider2";
+import Team_slider from "../../components/Slider/Team/TeamSlider";
+import Team_slider2 from "../../components/Slider/Team/TeamSlider2";
 import Splides from "../../components/Slider/Splides";
 import { SplideSlide } from "@splidejs/react-splide";
 import Reveal from "../../components/Animations/Reveal";
 
-const Team_carousel = () => {
+const TeamCarousel = () => {
   const brands = [
     { id: 1, image: "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/brand.png" },
     { id: 2, image: "https://gaviaspreview.com/wp/gowilds/wp-content/plugins/gowilds-themer/elementor/assets/images/brand.png" },
@@ -86,4 +86,4 @@ const Team_carousel = () => {
   );
 };
 
-export default Team_carousel;
+export default TeamCarousel;

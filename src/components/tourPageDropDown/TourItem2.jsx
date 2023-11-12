@@ -11,7 +11,7 @@ import { MdLocationOn, MdPeopleOutline } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { ImCross } from "react-icons/im";
-import Lazy_loader from "../Slider/lazyLoader/lazy_loader";
+import Lazy_loader from "../Slider/lazyLoader/lazyLoader";
 import tours from '../../Json/adventure.json'
 
 const TourItem2 = ({name,setName}) => {

@@ -12,7 +12,7 @@ import { LuClock3 } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import tours from "../../Json/adventure.json";
 import { ImCross } from "react-icons/im";
-import Lazy_loader from "../Slider/lazyLoader/lazy_loader";
+import Lazy_loader from "../Slider/lazyLoader/lazyLoader";
 
 const TourItem1 = ({ name, setName }) => {
   const [displayCheck, setDisplayCheck] = useState(false);
