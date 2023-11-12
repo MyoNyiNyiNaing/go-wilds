@@ -52,7 +52,7 @@ import { Progress } from "@material-tailwind/react";
 import { IoPricetag } from "react-icons/io5";
 import { GiDuration } from "react-icons/gi";
 import { RiParkingBoxLine } from "react-icons/ri";
-import Lazy_loader from "../../components/Slider/lazyLoader/lazy_loader";
+import Lazy_loader from "../../components/Slider/lazyLoader/LazyLoader";
 import tours from "../../Json/adventure.json";
 
 const TourDetail = ({ name }) => {
