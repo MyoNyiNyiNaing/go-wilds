@@ -13,7 +13,7 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { BsArrowRight } from "react-icons/bs";
 import { LuPhoneCall } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import Landing_image from "../../components/Landing/Landing_image";
+import Landing_image from "../../components/Landing/LandingImage";
 
 
 const News1Detail = () => {

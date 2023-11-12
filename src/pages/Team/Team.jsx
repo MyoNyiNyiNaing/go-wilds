@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Landing_image from "../../components/Landing/Landing_image";
+import Landing_image from "../../components/Landing/LandingImage";
 import "./team.css";
 import slides from "../../components/Slider/team.json";
 import {
@@ -9,7 +9,7 @@ import {
   FaShareAlt,
   FaTwitter,
 } from "react-icons/fa";
-import Explore_more from "../../components/Explore_more/Explore_more";
+import Explore_more from "../../components/Explore_more/ExploreMore";
 import Reveal from "../../components/Animations/Reveal";
 
 const Team = () => {

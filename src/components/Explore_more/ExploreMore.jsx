@@ -2,7 +2,7 @@ import React from "react";
 import "./Explore_more.css";
 import { BiWorld } from "react-icons/bi";
 
-const Explore_more = ({rounded = true}) => {
+const ExploreMore = ({rounded = true}) => {
   return (
     <div className={`relative overflow-hidden  max-h-[200px] bg-primary ${rounded && "rounded-xl"}`}>
       <div className="absolute explore"></div>
@@ -29,4 +29,4 @@ const Explore_more = ({rounded = true}) => {
   );
 };
 
-export default Explore_more;
+export default ExploreMore;

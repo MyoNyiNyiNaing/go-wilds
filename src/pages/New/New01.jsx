@@ -3,8 +3,8 @@ import "./News.css";
 import { FaRegComments, FaUserCircle } from "react-icons/fa";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Landing_image from "../../components/Landing/Landing_image";
-import Explore_more from "../../components/Explore_more/Explore_more"
+import Landing_image from "../../components/Landing/LandingImage";
+import Explore_more from "../../components/Explore_more/ExploreMore"
 
 import News01Page1 from "./News01Page1";
 import News01Page2 from "./News01Page2";

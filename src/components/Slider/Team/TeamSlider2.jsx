@@ -11,7 +11,7 @@ import {
 import slides from '../team.json'
 import Splides from "../Splides";
 
-const Team_slider2 = () => {
+const TeamSlider2 = () => {
   const slide = slides.map((item) => {
     return (
       <SplideSlide
@@ -54,4 +54,4 @@ const Team_slider2 = () => {
   );
 };
 
-export default Team_slider2;
+export default TeamSlider2;

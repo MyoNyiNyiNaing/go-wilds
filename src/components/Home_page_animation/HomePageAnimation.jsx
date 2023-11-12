@@ -3,7 +3,7 @@ import "./Home_page.css";
 import { SplideSlide } from "@splidejs/react-splide";
 import Splides from "../Slider/Splides";
 
-const Home_page_animation = () => {
+const HomePageAnimation = () => {
   const slides = (
     <>
       <SplideSlide className="relative md:h-screen overflow-hidden">
@@ -153,4 +153,4 @@ const Home_page_animation = () => {
   );
 };
 
-export default Home_page_animation;
+export default HomePageAnimation;

@@ -7,8 +7,8 @@ import iconEarth from "../../assets/images/planet-earth.png";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
-import Landing_image from "../../components/Landing/Landing_image";
-import Explore_more from "../../components/Explore_more/Explore_more";
+import Landing_image from "../../components/Landing/LandingImage";
+import Explore_more from "../../components/Explore_more/ExploreMore";
 import Reveal from "../../components/Animations/Reveal";
 import RevealUp from "../../components/Animations/RevealUp";
 const ContactPage = () => {

@@ -6,9 +6,9 @@ import { LuClock3 } from "react-icons/lu";
 import { MdLocationOn, MdPeopleOutline } from "react-icons/md";
 import { VscDeviceCameraVideo } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import Explore_more from "../../components/Explore_more/Explore_more";
+import Explore_more from "../../components/Explore_more/ExploreMore";
 
-const Destination_detail = ({name}) => {
+const DestinationDetail = ({name}) => {
   return (
     <>  
       <div className=" ">
@@ -349,4 +349,4 @@ const Destination_detail = ({name}) => {
   );
 };
 
-export default Destination_detail;
+export default DestinationDetail;

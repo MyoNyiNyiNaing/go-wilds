@@ -14,12 +14,12 @@ import { BsPatchCheckFill } from "react-icons/bs";
 import { FaCoins, FaVest } from "react-icons/fa";
 import { TfiQuoteRight } from "react-icons/tfi";
 import { AiFillStar } from "react-icons/ai";
-import Adventure_gallery from "../../components/Adventure/Adventure_gallery";
+import Adventure_gallery from "../../components/Adventure/AdventureGallery";
 import Splides from "../../components/Slider/Splides";
 import { SplideSlide } from "@splidejs/react-splide";
-import Hero_section from "../../components/Hero_section/Hero_section";
-import Tour_bgBlur from "../../components/Tour_bgBlur/Tour_bgBlur";
-import Team_slider from "../../components/Slider/Team/Team_slider";
+import Hero_section from "../../components/Hero_section/HeroSection";
+import Tour_bgBlur from "../../components/Tour_bgBlur/TourBgBlur";
+import Team_slider from "../../components/Slider/Team/TeamSlider";
 import Reveal from "../../components/Animations/Reveal";
 import RevealUp from "../../components/Animations/RevealUp";
 

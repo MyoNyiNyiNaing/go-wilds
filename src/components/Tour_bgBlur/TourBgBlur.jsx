@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 import { MdOutlineParagliding, MdOutlineTour } from "react-icons/md";
 import { GiDetour } from "react-icons/gi";
 
-const Tour_bgBlur = ({ check }) => {
+const TourBgBlur = ({ check }) => {
   return (
     <div
       className=" min-h-[calc(100vh-100px)] relative bg-blur"
@@ -113,4 +113,4 @@ const Tour_bgBlur = ({ check }) => {
   );
 };
 
-export default Tour_bgBlur;
+export default TourBgBlur;

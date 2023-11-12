@@ -1,7 +1,7 @@
 import React from "react";
-import "./Landing_image.css";
+import "./landing_image.css";
 
-const Landing_image = ({ about, page }) => {
+const LandingImage = ({ about, page }) => {
     // Add About and Page from parent component 
     
   return (
@@ -21,4 +21,4 @@ const Landing_image = ({ about, page }) => {
   );
 };
 
-export default Landing_image;
+export default LandingImage;

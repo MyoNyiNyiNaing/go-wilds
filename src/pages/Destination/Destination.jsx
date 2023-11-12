@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { FaCoins, FaPlay, FaVest } from "react-icons/fa";
 import { GiCommercialAirplane } from "react-icons/gi";
-import Adventure_gallery from "../../components/Adventure/Adventure_gallery";
+import Adventure_gallery from "../../components/Adventure/AdventureGallery";
 import { Link } from "react-router-dom";
 
 const Destination = ({ name, setName }) => {

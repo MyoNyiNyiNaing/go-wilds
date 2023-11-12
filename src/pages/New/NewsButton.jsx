@@ -7,7 +7,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { BsArrowRight } from "react-icons/bs";
 import { LuPhoneCall } from "react-icons/lu";
-import Landing_image from "../../components/Landing/Landing_image";
+import Landing_image from "../../components/Landing/LandingImage";
 
 const NewsButton = () => {
 	return (

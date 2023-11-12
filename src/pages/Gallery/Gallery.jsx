@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./gallery.css";
-import Hero_section from "../../components/Hero_section/Hero_section";
+import Hero_section from "../../components/Hero_section/HeroSection";
 import tours from "../../Json/adventure.json";
 import gallery_images from "./gallery.json";
 import { BsPlus } from "react-icons/bs";
 import Lazy_loader from "../../components/Slider/lazyLoader/LazyLoader";
 import { ImCross } from "react-icons/im";
-import Explore_more from "../../components/Explore_more/Explore_more";
+import Explore_more from "../../components/Explore_more/ExploreMore";
 import RevealUp from "../../components/Animations/RevealUp";
 
 const Gallery = () => {
@@ -16,8 +16,8 @@ const Gallery = () => {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   const tour = gallery_images.map((item) => {
     return (
@@ -44,9 +44,11 @@ const Gallery = () => {
     <>
       <Hero_section about={"Gallery"} />
       <div className=" px-10 min-h-screen py-32">
-       <RevealUp>
-       <div className="2xl:w-[68%]  w-[100%]  xl:mx-auto  flex flex-wrap gap-14">{tour}</div>
-       </RevealUp>
+        <RevealUp>
+          <div className="2xl:w-[68%]  w-[100%]  xl:mx-auto  flex flex-wrap gap-14">
+            {tour}
+          </div>
+        </RevealUp>
       </div>
       <div className={`lazy-loader ${displayCheck ? "" : "hidden"}`}>
         <div

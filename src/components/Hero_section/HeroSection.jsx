@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Hero_section = ({about}) => {
+const HeroSection = ({about}) => {
   const [isFirstPhoto, setIsFirstPhoto] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -43,4 +43,4 @@ const Hero_section = ({about}) => {
   );
 };
 
-export default Hero_section;
+export default HeroSection;
