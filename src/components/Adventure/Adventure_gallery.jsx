@@ -4,7 +4,7 @@ import Splides from "../Slider/Splides";
 import { SplideSlide } from "@splidejs/react-splide";
 import "./adventure_gallery.css";
 import tours from "../../Json/adventure.json";
-import Lazy_loader from "../Slider/lazyLoader/lazy_loader";
+import Lazy_loader from "../Slider/lazyLoader/LazyLoader";
 import { ImCross } from "react-icons/im";
 
 const Adventure_gallery = () => {

@@ -4,7 +4,7 @@ import Hero_section from "../../components/Hero_section/Hero_section";
 import tours from "../../Json/adventure.json";
 import gallery_images from "./gallery.json";
 import { BsPlus } from "react-icons/bs";
-import Lazy_loader from "../../components/Slider/lazyLoader/Lazy_loader";
+import Lazy_loader from "../../components/Slider/lazyLoader/LazyLoader";
 import { ImCross } from "react-icons/im";
 import Explore_more from "../../components/Explore_more/Explore_more";
 import RevealUp from "../../components/Animations/RevealUp";

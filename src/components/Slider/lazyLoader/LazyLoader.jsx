@@ -2,7 +2,7 @@ import React from "react";
 import "./lazy_loader.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-const Lazy_loader = ({detailImage}) => {
+const LazyLoader = ({detailImage}) => {
   // Give what you want to loop
  
   const tour = detailImage.map((item) => {
@@ -37,4 +37,4 @@ const Lazy_loader = ({detailImage}) => {
   );
 };
 
-export default Lazy_loader;
+export default LazyLoader;
