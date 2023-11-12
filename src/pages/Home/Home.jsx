@@ -37,7 +37,7 @@ import { AiFillDollarCircle, AiFillStar, AiOutlineHeart } from "react-icons/ai";
 import Tour_bgBlur from "../../components/Tour_bgBlur/Tour_bgBlur";
 import Adventure_gallery from "../../components/Adventure/Adventure_gallery";
 import { ImCross } from "react-icons/im";
-import Lazy_loader from "../../components/Slider/lazyLoader/lazy_loader";
+import Lazy_loader from "../../components/Slider/lazyLoader/Lazy_loader";
 import tours from "../../Json/adventure.json";
 import { TfiQuoteRight } from "react-icons/tfi";
 import DropDown from "../../components/tourPageDropDown/DropDown";
